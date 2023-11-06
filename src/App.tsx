@@ -1,11 +1,11 @@
-import "./App.css";
-import GalleryLayout from "./Components/GalleryLayout";
+import GalleryLayout from "./Components/Gallery/GalleryLayout";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <>
-      <div className="">
-        {/* <Gallery /> */}
+      <div className="container mx-auto">
+        <Navbar />
         <GalleryLayout />
       </div>
     </>
